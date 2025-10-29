@@ -1,0 +1,16 @@
+{
+  "name": "sistema-consulta-certidao-negativa",
+  "version": "1.0.0",
+  "description": "Sistema para consulta automatizada de certidões negativas - Monte Santo de Minas",
+  "main": "consultaCertidao.js",
+  "scripts": {
+    "start": "node consultaCertidao.js",
+    "install-browsers": "npx playwright install"
+  },
+  "keywords": ["certidao", "negativa", "automacao", "playwright"],
+  "author": "Gustavo Gonçalves dos Santos",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
